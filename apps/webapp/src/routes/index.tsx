@@ -1,5 +1,5 @@
+import { useUsers } from '@/features/users/service/useUsers';
 import Header from '@/header';
-import { useUsers } from '@/hooks/useUsers';
 import { createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/')({

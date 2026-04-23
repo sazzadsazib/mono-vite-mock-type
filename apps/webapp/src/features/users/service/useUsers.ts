@@ -1,6 +1,6 @@
+import { useAPIClient } from '@/hooks/useAPIClient';
 import type { User } from '@repo/types';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { useAPIClient } from './useAPIClient';
 
 // ─── Query keys ───────────────────────────────────────────────────────────────
 

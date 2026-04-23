@@ -1,5 +1,5 @@
+import { userService } from '@/features/users/service/user.service';
 import axiosInstance from '@/lib/axios';
-import { userService } from '@/services/user.service';
 import { useMemo } from 'react';
 
 /**
