@@ -1,4 +1,4 @@
-import { useUsers } from '@/features/users/service/useUsers';
+import { useUsers } from '@/features/users/hooks/useUsers';
 import Header from '@/header';
 import { createFileRoute } from '@tanstack/react-router';
 
