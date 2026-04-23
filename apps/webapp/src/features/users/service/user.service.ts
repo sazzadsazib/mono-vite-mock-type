@@ -15,7 +15,7 @@ const toUser = (u: JPUser): User => ({
 });
 
 export const userService = (client: AxiosInstance) => ({
-  filter: async (): Promise<User[]> => {
+  list: async (): Promise<User[]> => {
     const { data } = await client.get<JPUser[]>('/users');
     return data.map(toUser);
   },
